@@ -1,0 +1,9 @@
+<!--pages/itemDetail.wxml-->
+<view class='' style='display: flex; flex-direction: column; margin: 30rpx;'>
+  <text class='title'>item.title</text>
+  <text class='salary'>salary</text>
+  <text class='detail'>item.detail</text>
+  <text class='requirement'>item.requirement</text>
+  <text class='locus'>item.locus (导航) </text>
+  <text class='phone' data-number='{{item.phoneNumber}}'>item.phoneNumber</text>
+</view>

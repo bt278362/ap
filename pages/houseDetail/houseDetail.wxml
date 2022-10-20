@@ -1,0 +1,11 @@
+<!--pages/itemDetail.wxml-->
+<view class='' style='display: flex; flex-direction: column; margin: 30rpx;' >
+  <text class='title'>item.title</text>
+  <text class='salary'>rental</text>
+  <text class='detail'>item.detail</text>
+  <text class='requirement'>item.requirement</text>
+  <text class='locus' catchtap='getLocation'>item.locus (点击进入导航) </text>
+  <text class='phone' data-number='{{item.phoneNumber}}' data-phone='18888888888' catchtap='callPhone'>item.phoneNumber（点击拨打电话）</text>
+</view>
+<!-- <image src='http://h1.ioliu.cn//bing/VaranasiCandles_EN-AU12230572751_1920x1080.jpg'></image> -->
+ <!-- background-image: url("http://h1.ioliu.cn//bing/VaranasiCandles_EN-AU12230572751_1920x1080.jpg");background-size:100% 100%; -->

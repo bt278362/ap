@@ -1,0 +1,61 @@
+/* pages/Info/Info.wxss */
+.item-card {
+  background: #F8F8F8; 
+  /* #7abcff; */
+  height: 250rpx;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between;  */
+  /* align-items: center;   */
+  padding: 10rpx  20rpx 30rpx 20rpx;
+  border-top: solid #A0A0A0 4rpx; 
+  border-bottom: 4rpx solid #A0A0A0; 
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 520rpx;
+}
+
+.right {
+  width: 200rpx;
+  height: 270rpx;
+  display: flex;
+  flex-direction: column;
+  background: #1fb553; 
+  text-align: center;
+}
+
+.title {
+  font-size: 50rpx;
+  word-break:break-all;
+}
+
+.salary {
+  font-size: 30rpx;
+  color: #ff0000;
+}
+
+.summary {
+  font-size: 30rpx;
+  word-break:break-all;
+}
+
+.requirement {
+  font-size: 30rpx;
+  color: #0033ff;
+  /* #007fff; */
+  word-break:break-all;
+}
+
+.date {
+  font-family: Courier New, Courier, monospace;
+  /* monospace; */
+  /* 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  /* initial; */
+  /* inherit; */
+  /* Arial, Helvetica, sans-serif; */
+  /* Cambria, Cochin, Georgia, Times, Times New Roman, serif; */
+  font-size: 30rpx;
+}

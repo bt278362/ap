@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/house/house",
+    "pages/work/work",
+    "pages/weekly/weekly",
+    "pages/index/index",
+    "pages/fleaMarket/fleaMarket",
+    "pages/tourism/tourism",
+    "pages/insurance/insurance",
+    "pages/car/car",
+    "pages/delicacy/delicacy",
+    "pages/clothing/clothing",
+    "pages/shoes/shoes",
+    "pages/creditCard/creditCard",
+    "pages/decoration/decoration",
+    "pages/shopService/shopService",
+    "pages/about/about",
+    "pages/movieDetail/movieDetail",
+    "pages/workDetail/workDetail",
+    "pages/houseDetail/houseDetail"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "House Flow",
+        "pagePath": "pages/house/house",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/selectedHome.png"
+      },
+      {
+        "text": "Work Flow",
+        "pagePath": "pages/work/work",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/selectedHome.png"
+      },
+      {
+        "text": "每周推荐",
+        "pagePath": "pages/weekly/weekly",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/selectedAbout.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/selectedHome.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#00f"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "电影周周看"
+  }
+}

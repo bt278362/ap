@@ -1,0 +1,10 @@
+<!--about/about.wxml-->
+<view class='container'>
+  <image class='about-banner' mode='aspectFill' src='http://h1.ioliu.cn//bing/DogWork_EN-AU10032511594_1920x1080.jpg' />
+  <text style='font-weight: bold; font-size: 60rpx;'>租房信息</text>
+  <text>××租房信息发布</text>
+  <view>
+    <text>我</text><navigator hover-class='nav-hover' class='nav-default' style='display: inline;' url='/pages/weekly/weekly' open-type='switchTab'>每周推荐</navigator><text>一部好片</text>
+  </view>
+  <text>我的微博： weibo.com/****</text>
+</view>

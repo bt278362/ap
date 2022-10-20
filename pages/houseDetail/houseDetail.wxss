@@ -1,0 +1,17 @@
+.title {
+  font-size: 60rpx;
+  text-align: center;
+  /* justify-content: space-around; */
+}
+
+.salary {
+  color: red;
+}
+
+.detail {
+
+}
+
+.requirement {
+  color: #0033ff;
+}
